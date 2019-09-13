@@ -5,7 +5,6 @@ public class Pump {
     private final double pricePerLiterOfFuel = 12;
     private double totalFuel = 0;
     private double totalPrice = 0;
-    private double balance = 0;
 
     void addFuel(double litersOfFuel){
         this.totalFuel+= litersOfFuel;
